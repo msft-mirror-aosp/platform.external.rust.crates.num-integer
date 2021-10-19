@@ -8,9 +8,6 @@
       "name": "libapkverify.test"
     },
     {
-      "name": "microdroid_manager_test"
-    },
-    {
       "name": "num-bigint_device_test_src_lib"
     },
     {
@@ -33,6 +30,15 @@
     },
     {
       "name": "num-bigint_device_test_tests_roots"
+    },
+    {
+      "name": "num-integer_device_test_src_lib"
+    },
+    {
+      "name": "num-integer_device_test_tests_average"
+    },
+    {
+      "name": "num-integer_device_test_tests_roots"
     },
     {
       "name": "oid-registry_device_test_src_lib"
