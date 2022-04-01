@@ -39,6 +39,7 @@ license {
 
 rust_library {
     name: "libnum_integer",
+    // has rustc warnings
     host_supported: true,
     crate_name: "num_integer",
     cargo_env_compat: true,
@@ -53,10 +54,15 @@ rust_library {
     rustlibs: [
         "libnum_traits",
     ],
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.virt",
+    ],
 }
 
 rust_test {
     name: "num-integer_test_src_lib",
+    // has rustc warnings
     host_supported: true,
     crate_name: "num_integer",
     cargo_env_compat: true,
@@ -100,6 +106,7 @@ rust_defaults {
 rust_test {
     name: "num-integer_test_tests_average",
     defaults: ["num-integer_test_defaults"],
+    // has rustc warnings
     host_supported: true,
     srcs: ["tests/average.rs"],
     test_options: {
@@ -110,6 +117,7 @@ rust_test {
 rust_test {
     name: "num-integer_test_tests_roots",
     defaults: ["num-integer_test_defaults"],
+    // has rustc warnings
     host_supported: true,
     srcs: ["tests/roots.rs"],
     test_options: {
