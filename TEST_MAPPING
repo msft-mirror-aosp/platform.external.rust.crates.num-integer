@@ -8,7 +8,13 @@
       "path": "external/rust/crates/oid-registry"
     }
   ],
-  "presubmit": [
+  "postsubmit": [
+    {
+      "name": "ZipFuseTest"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
     {
       "name": "libapkverify.integration_test"
     },
@@ -29,10 +35,51 @@
     },
     {
       "name": "num-integer_test_tests_roots"
+    },
+    {
+      "name": "virtualizationservice_device_test"
+    }
+  ],
+  "presubmit": [
+    {
+      "name": "ZipFuseTest"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
+    {
+      "name": "libapkverify.integration_test"
+    },
+    {
+      "name": "libapkverify.test"
+    },
+    {
+      "name": "libcert_request_validator_tests"
+    },
+    {
+      "name": "microdroid_manager_test"
+    },
+    {
+      "name": "num-integer_test_src_lib"
+    },
+    {
+      "name": "num-integer_test_tests_average"
+    },
+    {
+      "name": "num-integer_test_tests_roots"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ],
   "presubmit-rust": [
     {
+      "name": "ZipFuseTest"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
+    {
       "name": "libapkverify.integration_test"
     },
     {
@@ -52,6 +99,9 @@
     },
     {
       "name": "num-integer_test_tests_roots"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ]
 }
