@@ -10,6 +10,15 @@
   ],
   "presubmit": [
     {
+      "name": "ZipFuseTest"
+    },
+    {
+      "name": "apkdmverity.test"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
+    {
       "name": "libapkverify.integration_test"
     },
     {
@@ -17,6 +26,9 @@
     },
     {
       "name": "libcert_request_validator_tests"
+    },
+    {
+      "name": "libidsig.test"
     },
     {
       "name": "microdroid_manager_test"
@@ -29,10 +41,22 @@
     },
     {
       "name": "num-integer_test_tests_roots"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ],
   "presubmit-rust": [
     {
+      "name": "ZipFuseTest"
+    },
+    {
+      "name": "apkdmverity.test"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
+    {
       "name": "libapkverify.integration_test"
     },
     {
@@ -40,6 +64,9 @@
     },
     {
       "name": "libcert_request_validator_tests"
+    },
+    {
+      "name": "libidsig.test"
     },
     {
       "name": "microdroid_manager_test"
@@ -52,6 +79,9 @@
     },
     {
       "name": "num-integer_test_tests_roots"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ]
 }
