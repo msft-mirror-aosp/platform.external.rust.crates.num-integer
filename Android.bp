@@ -39,11 +39,10 @@ license {
 
 rust_library {
     name: "libnum_integer",
-    // has rustc warnings
     host_supported: true,
     crate_name: "num_integer",
     cargo_env_compat: true,
-    cargo_pkg_version: "0.1.44",
+    cargo_pkg_version: "0.1.45",
     srcs: ["src/lib.rs"],
     edition: "2015",
     features: [
@@ -63,11 +62,10 @@ rust_library {
 
 rust_test {
     name: "num-integer_test_src_lib",
-    // has rustc warnings
     host_supported: true,
     crate_name: "num_integer",
     cargo_env_compat: true,
-    cargo_pkg_version: "0.1.44",
+    cargo_pkg_version: "0.1.45",
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
@@ -89,7 +87,7 @@ rust_defaults {
     name: "num-integer_test_defaults",
     crate_name: "num_integer",
     cargo_env_compat: true,
-    cargo_pkg_version: "0.1.44",
+    cargo_pkg_version: "0.1.45",
     test_suites: ["general-tests"],
     auto_gen_config: true,
     edition: "2015",
@@ -107,7 +105,6 @@ rust_defaults {
 rust_test {
     name: "num-integer_test_tests_average",
     defaults: ["num-integer_test_defaults"],
-    // has rustc warnings
     host_supported: true,
     srcs: ["tests/average.rs"],
     test_options: {
@@ -118,7 +115,6 @@ rust_test {
 rust_test {
     name: "num-integer_test_tests_roots",
     defaults: ["num-integer_test_defaults"],
-    // has rustc warnings
     host_supported: true,
     srcs: ["tests/roots.rs"],
     test_options: {
