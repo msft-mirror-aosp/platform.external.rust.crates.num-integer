@@ -6,19 +6,19 @@
     },
     {
       "path": "external/rust/crates/oid-registry"
+    },
+    {
+      "path": "packages/modules/Virtualization/authfs"
+    },
+    {
+      "path": "packages/modules/Virtualization/virtualizationmanager"
+    },
+    {
+      "path": "packages/modules/Virtualization/zipfuse"
     }
   ],
   "presubmit": [
     {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
-      "name": "libpvmfw_avb.integration_test"
-    },
-    {
       "name": "num-integer_test_src_lib"
     },
     {
@@ -26,22 +26,10 @@
     },
     {
       "name": "num-integer_test_tests_roots"
-    },
-    {
-      "name": "virtualizationmanager_device_test"
     }
   ],
   "presubmit-rust": [
     {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
-      "name": "libpvmfw_avb.integration_test"
-    },
-    {
       "name": "num-integer_test_src_lib"
     },
     {
@@ -49,9 +37,6 @@
     },
     {
       "name": "num-integer_test_tests_roots"
-    },
-    {
-      "name": "virtualizationmanager_device_test"
     }
   ]
 }
